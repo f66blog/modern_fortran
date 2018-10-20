@@ -1,7 +1,8 @@
 gfortran
 gfortran-8
 
-apt-utils
+
 less
 mpich
+libmpich-dev
 open-coarrays-bin
