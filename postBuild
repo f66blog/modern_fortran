@@ -7,5 +7,5 @@ cd flang
 tar zxvf ../flang-20180921-x86.tgz
 cd ..
 rm flang-20180921-x86.tgz
-export LD_LIBRARY_PATH=~/flang/lib:$LD_LIBRARY_PATH
-export PATH=~/flang/bin:$PATH
+echo export LD_LIBRARY_PATH=~/flang/lib:$LD_LIBRARY_PATH >> ~/.bashrc
+echo export PATH=~/flang/bin:$PATH                       >> ~/.bashrc  
