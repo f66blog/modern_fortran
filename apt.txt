@@ -4,5 +4,5 @@ gfortran-8
 
 less
 mpich
-libmpich-dev
+libcaf-mpi2
 open-coarrays-bin
