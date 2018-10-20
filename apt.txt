@@ -2,5 +2,5 @@ gfortran
 gfortran-8
 
 less
-mpich
+mpich3
 open-coarrays-bin
