@@ -1,11 +1,3 @@
 #!/bin/bash
 pip install -e ./jupyter-gfort-kernel
 jupyter kernelspec install ./jupyter-gfort-kernel/gfort_spec --user
-wget https://github.com/flang-compiler/flang/releases/download/flang_20180921/flang-20180921-x86.tgz
-mkdir flang
-cd flang
-tar zxvf ../flang-20180921-x86.tgz
-cd ..
-rm flang-20180921-x86.tgz
-echo export LD_LIBRARY_PATH=~/flang/lib:$LD_LIBRARY_PATH >> ~/.bashrc
-echo export PATH=~/flang/bin:$PATH                       >> ~/.bashrc  
