@@ -140,7 +140,7 @@ class gfortKernel(Kernel):
                   'ldflags': [],
                   'module': [],
                   'args': [],
-                  'compiler': ['gfortran', '.f90'],
+                  'compiler': ['gfortran-8', '.f90'],
                   'fig': False,
                   'fig_arg': [],
                   'image': [],
