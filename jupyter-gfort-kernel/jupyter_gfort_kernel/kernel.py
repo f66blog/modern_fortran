@@ -136,7 +136,7 @@ class gfortKernel(Kernel):
     
     def _filter_magics(self, code):
 
-        magics = {'fcflags': ['Wall', 'fcheck=all'],
+        magics = {'fcflags': ['-Wall', '-fcheck=all'],
                   'ldflags': [],
                   'module': [],
                   'args': [],
