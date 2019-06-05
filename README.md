@@ -3,8 +3,8 @@
 Binder と Jupyter Notebook による Modern Fortran 入門
 
 # binder
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/f66blog/modern_fortran/master?urlpath=lab)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/f66blog/modern_fortran/master)
+[![Binder lab     ](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/f66blog/modern_fortran/master?urlpath=lab)
+[![Binder notebook](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/f66blog/modern_fortran/master)
 
 ## gfortran-8
 default options: -Wall -fcheck=all
